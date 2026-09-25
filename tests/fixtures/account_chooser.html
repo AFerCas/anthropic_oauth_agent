@@ -1,0 +1,25 @@
+<!doctype html>
+<!-- Mimics the markup of Google's account chooser (role="link" rows with name + email). -->
+<html lang="de">
+<head><meta charset="utf-8"><title>fixture chooser</title></head>
+<body>
+  <h1>Konto auswählen</h1>
+  <p>Weiter zu Claude</p>
+  <ul>
+    <li>
+      <div role="link" tabindex="0" data-identifier="someone@example.com"
+           onclick="document.title='clicked someone'">
+        <div>Someone Else</div><div>someone@example.com</div>
+      </div>
+    </li>
+    <li>
+      <div role="link" tabindex="0" data-identifier="target@example.com"
+           onclick="document.title='clicked target'">
+        <div><div>Test User</div><div data-email="target@example.com">target@example.com</div></div>
+      </div>
+    </li>
+    <li><div role="link" tabindex="0" onclick="document.title='clicked other'">Anderes Konto verwenden</div></li>
+  </ul>
+  <p>Logged in as</p><p>target@example.com</p>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# Copy to local.toml (gitignored) and set your own values.
+
+# Google account the agent picks and the only one it authorizes Claude Code for.
+email = "you@example.com"
