@@ -1,6 +1,6 @@
 # anthropic_oauth_agent
 
-Watches every open browser on this Windows machine for the Claude Code login
+Watches every open browser on my Windows laptop for the Claude Code login
 (`claude` / `/login`) and clicks through it as the Google account set in `local.toml`:
 
 1. claude.ai login page: clicks "Continue with Google" ("Mit Google fortfahren").
